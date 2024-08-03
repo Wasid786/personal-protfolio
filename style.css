@@ -355,7 +355,7 @@ a {
     gap: 120px;
 }
 
-.namesection {}
+
 
 .project-card {
     width: 90%;
@@ -462,14 +462,15 @@ a {
 }
 
 .project-heading {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     line-height: 3rem;
+    white-space: nowrap;
 }
 
 .project-subHeading {
     width: 70%;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -637,6 +638,7 @@ a {
     opacity: 0.4;
 }
 
+
 @keyframes blobAnimate {
     50% {
         top: 54%;
@@ -648,6 +650,76 @@ a {
     .namesection {
         font-size: 60px;
         margin-left: 70px;
+    }
+
+    .hero-section-description {
+        font-size: 20px;
+        width: 50%;
+    }
+
+    .project-content {
+        margin-top: 0;
+        /* align-items: center; */
+        justify-content: center;
+        /* Add this line */
+    }
+
+    .project-content-left {
+        margin-top: 0;
+        top: 0;
+        /* Add this line */
+        bottom: 0;
+        /* Add this line */
+    }
+
+    .skill-subHeading p {
+        width: 70%;
+        margin: 10px 0;
+        padding: 10px;
+        margin-top: 0rem;
+    }
+
+    .contactus-heading {
+        font-size: 2em;
+
+
+    }
+
+    .contactus-sub-heading {
+        font-size: 2rem;
+
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 50%;
+        margin: 2rem 2rem;
+    }
+
+    .footer-faded-text {
+        font-size: 10px;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 10%;
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .icon-wrapper {
+        width: 30%;
+
+    }
+
+    .link-wrapper {
+        white-space: nowrap;
+        width: 30%;
     }
 }
 
@@ -686,6 +758,7 @@ a {
 
 .skill-subHeading p {
     margin: 15px 0;
+
 }
 
 .contactus-form-container {
@@ -786,7 +859,8 @@ footer {
     bottom: 0;
     user-select: none;
     color: #535c87;
-    font-size: 5em;
+    font-size: 4em;
+    white-space: nowrap;
 }
 
 .link-wrapper {
